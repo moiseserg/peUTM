@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+	
 	unsigned int x ;
 	scanf("%u", &x);
 
@@ -25,7 +26,6 @@ int main(){
 	printf("%u ",( x & 0x4) >> 2);
 	printf("%u ",( x & 0x2) >> 1);
 	printf("%u ",( x & 0x1) );
-
 
 	return 0;
 }
