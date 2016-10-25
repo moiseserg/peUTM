@@ -1,0 +1,999 @@
+    1: uno
+    2: dos
+    3: tres
+    4: cuatro
+    5: cinco
+    6: seis
+    7: siete
+    8: ocho
+    9: nueve
+   10: diez
+   11: once
+   12: doce
+   13: trece
+   14: catorce
+   15: quince
+   16: dieciséis
+   17: diecisiete
+   18: dieciocho
+   19: diecinueve
+   20: veinte
+   21: veintiuno
+   22: veintidos
+   23: veintitres
+   24: veinticuatro
+   25: veinticinco
+   26: veintiseis
+   27: veintisiete
+   28: veintiocho
+   29: veintinueve
+   30: treinta
+   31: treinta y uno
+   32: treinta y dos
+   33: treinta y tres
+   34: treinta y cuatro
+   35: treinta y cinco
+   36: treinta y seis
+   37: treinta y siete
+   38: treinta y ocho
+   39: treinta y nueve
+   40: cuarenta
+   41: cuarenta y uno
+   42: cuarenta y dos
+   43: cuarenta y tres
+   44: cuarenta y cuatro
+   45: cuarenta y cinco
+   46: cuarenta y seis
+   47: cuarenta y siete
+   48: cuarenta y ocho
+   49: cuarenta y nueve
+   50: cincuenta
+   51: cincuenta y uno
+   52: cincuenta y dos
+   53: cincuenta y tres
+   54: cincuenta y cuatro
+   55: cincuenta y cinco
+   56: cincuenta y seis
+   57: cincuenta y siete
+   58: cincuenta y ocho
+   59: cincuenta y nueve
+   60: sesenta
+   61: sesenta y uno
+   62: sesenta y dos
+   63: sesenta y tres
+   64: sesenta y cuatro
+   65: sesenta y cinco
+   66: sesenta y seis
+   67: sesenta y siete
+   68: sesenta y ocho
+   69: sesenta y nueve
+   70: setenta
+   71: setenta y uno
+   72: setenta y dos
+   73: setenta y tres
+   74: setenta y cuatro
+   75: setenta y cinco
+   76: setenta y seis
+   77: setenta y siete
+   78: setenta y ocho
+   79: setenta y nueve
+   80: ochenta
+   81: ochenta y uno
+   82: ochenta y dos
+   83: ochenta y tres
+   84: ochenta y cuatro
+   85: ochenta y cinco
+   86: ochenta y seis
+   87: ochenta y siete
+   88: ochenta y ocho
+   89: ochenta y nueve
+   90: noventa
+   91: noventa y uno
+   92: noventa y dos
+   93: noventa y tres
+   94: noventa y cuatro
+   95: noventa y cinco
+   96: noventa y seis
+   97: noventa y siete
+   98: noventa y ocho
+   99: noventa y nueve
+  100: cien 
+  101: ciento uno
+  102: ciento dos
+  103: ciento tres
+  104: ciento cuatro
+  105: ciento cinco
+  106: ciento seis
+  107: ciento siete
+  108: ciento ocho
+  109: ciento nueve
+  110: ciento diez
+  111: ciento once
+  112: ciento doce
+  113: ciento trece
+  114: ciento catorce
+  115: ciento quince
+  116: ciento dieciséis
+  117: ciento diecisiete
+  118: ciento dieciocho
+  119: ciento diecinueve
+  120: ciento veinte
+  121: ciento veintiuno
+  122: ciento veintidos
+  123: ciento veintitres
+  124: ciento veinticuatro
+  125: ciento veinticinco
+  126: ciento veintiseis
+  127: ciento veintisiete
+  128: ciento veintiocho
+  129: ciento veintinueve
+  130: ciento treinta
+  131: ciento treinta y uno
+  132: ciento treinta y dos
+  133: ciento treinta y tres
+  134: ciento treinta y cuatro
+  135: ciento treinta y cinco
+  136: ciento treinta y seis
+  137: ciento treinta y siete
+  138: ciento treinta y ocho
+  139: ciento treinta y nueve
+  140: ciento cuarenta
+  141: ciento cuarenta y uno
+  142: ciento cuarenta y dos
+  143: ciento cuarenta y tres
+  144: ciento cuarenta y cuatro
+  145: ciento cuarenta y cinco
+  146: ciento cuarenta y seis
+  147: ciento cuarenta y siete
+  148: ciento cuarenta y ocho
+  149: ciento cuarenta y nueve
+  150: ciento cincuenta
+  151: ciento cincuenta y uno
+  152: ciento cincuenta y dos
+  153: ciento cincuenta y tres
+  154: ciento cincuenta y cuatro
+  155: ciento cincuenta y cinco
+  156: ciento cincuenta y seis
+  157: ciento cincuenta y siete
+  158: ciento cincuenta y ocho
+  159: ciento cincuenta y nueve
+  160: ciento sesenta
+  161: ciento sesenta y uno
+  162: ciento sesenta y dos
+  163: ciento sesenta y tres
+  164: ciento sesenta y cuatro
+  165: ciento sesenta y cinco
+  166: ciento sesenta y seis
+  167: ciento sesenta y siete
+  168: ciento sesenta y ocho
+  169: ciento sesenta y nueve
+  170: ciento setenta
+  171: ciento setenta y uno
+  172: ciento setenta y dos
+  173: ciento setenta y tres
+  174: ciento setenta y cuatro
+  175: ciento setenta y cinco
+  176: ciento setenta y seis
+  177: ciento setenta y siete
+  178: ciento setenta y ocho
+  179: ciento setenta y nueve
+  180: ciento ochenta
+  181: ciento ochenta y uno
+  182: ciento ochenta y dos
+  183: ciento ochenta y tres
+  184: ciento ochenta y cuatro
+  185: ciento ochenta y cinco
+  186: ciento ochenta y seis
+  187: ciento ochenta y siete
+  188: ciento ochenta y ocho
+  189: ciento ochenta y nueve
+  190: ciento noventa
+  191: ciento noventa y uno
+  192: ciento noventa y dos
+  193: ciento noventa y tres
+  194: ciento noventa y cuatro
+  195: ciento noventa y cinco
+  196: ciento noventa y seis
+  197: ciento noventa y siete
+  198: ciento noventa y ocho
+  199: ciento noventa y nueve
+  200: doscientos
+  201: doscientosuno
+  202: doscientosdos
+  203: doscientostres
+  204: doscientoscuatro
+  205: doscientoscinco
+  206: doscientosseis
+  207: doscientossiete
+  208: doscientosocho
+  209: doscientosnueve
+  210: doscientosdiez
+  211: doscientosonce
+  212: doscientosdoce
+  213: doscientostrece
+  214: doscientoscatorce
+  215: doscientosquince
+  216: doscientosdieciséis
+  217: doscientosdiecisiete
+  218: doscientosdieciocho
+  219: doscientosdiecinueve
+  220: doscientosveinte
+  221: doscientosveintiuno
+  222: doscientosveintidos
+  223: doscientosveintitres
+  224: doscientosveinticuatro
+  225: doscientosveinticinco
+  226: doscientosveintiseis
+  227: doscientosveintisiete
+  228: doscientosveintiocho
+  229: doscientosveintinueve
+  230: doscientostreinta
+  231: doscientostreinta y uno
+  232: doscientostreinta y dos
+  233: doscientostreinta y tres
+  234: doscientostreinta y cuatro
+  235: doscientostreinta y cinco
+  236: doscientostreinta y seis
+  237: doscientostreinta y siete
+  238: doscientostreinta y ocho
+  239: doscientostreinta y nueve
+  240: doscientoscuarenta
+  241: doscientoscuarenta y uno
+  242: doscientoscuarenta y dos
+  243: doscientoscuarenta y tres
+  244: doscientoscuarenta y cuatro
+  245: doscientoscuarenta y cinco
+  246: doscientoscuarenta y seis
+  247: doscientoscuarenta y siete
+  248: doscientoscuarenta y ocho
+  249: doscientoscuarenta y nueve
+  250: doscientoscincuenta
+  251: doscientoscincuenta y uno
+  252: doscientoscincuenta y dos
+  253: doscientoscincuenta y tres
+  254: doscientoscincuenta y cuatro
+  255: doscientoscincuenta y cinco
+  256: doscientoscincuenta y seis
+  257: doscientoscincuenta y siete
+  258: doscientoscincuenta y ocho
+  259: doscientoscincuenta y nueve
+  260: doscientossesenta
+  261: doscientossesenta y uno
+  262: doscientossesenta y dos
+  263: doscientossesenta y tres
+  264: doscientossesenta y cuatro
+  265: doscientossesenta y cinco
+  266: doscientossesenta y seis
+  267: doscientossesenta y siete
+  268: doscientossesenta y ocho
+  269: doscientossesenta y nueve
+  270: doscientossetenta
+  271: doscientossetenta y uno
+  272: doscientossetenta y dos
+  273: doscientossetenta y tres
+  274: doscientossetenta y cuatro
+  275: doscientossetenta y cinco
+  276: doscientossetenta y seis
+  277: doscientossetenta y siete
+  278: doscientossetenta y ocho
+  279: doscientossetenta y nueve
+  280: doscientosochenta
+  281: doscientosochenta y uno
+  282: doscientosochenta y dos
+  283: doscientosochenta y tres
+  284: doscientosochenta y cuatro
+  285: doscientosochenta y cinco
+  286: doscientosochenta y seis
+  287: doscientosochenta y siete
+  288: doscientosochenta y ocho
+  289: doscientosochenta y nueve
+  290: doscientosnoventa
+  291: doscientosnoventa y uno
+  292: doscientosnoventa y dos
+  293: doscientosnoventa y tres
+  294: doscientosnoventa y cuatro
+  295: doscientosnoventa y cinco
+  296: doscientosnoventa y seis
+  297: doscientosnoventa y siete
+  298: doscientosnoventa y ocho
+  299: doscientosnoventa y nueve
+  300: trescientos 
+  301: trescientos uno
+  302: trescientos dos
+  303: trescientos tres
+  304: trescientos cuatro
+  305: trescientos cinco
+  306: trescientos seis
+  307: trescientos siete
+  308: trescientos ocho
+  309: trescientos nueve
+  310: trescientos diez
+  311: trescientos once
+  312: trescientos doce
+  313: trescientos trece
+  314: trescientos catorce
+  315: trescientos quince
+  316: trescientos dieciséis
+  317: trescientos diecisiete
+  318: trescientos dieciocho
+  319: trescientos diecinueve
+  320: trescientos veinte
+  321: trescientos veintiuno
+  322: trescientos veintidos
+  323: trescientos veintitres
+  324: trescientos veinticuatro
+  325: trescientos veinticinco
+  326: trescientos veintiseis
+  327: trescientos veintisiete
+  328: trescientos veintiocho
+  329: trescientos veintinueve
+  330: trescientos treinta
+  331: trescientos treinta y uno
+  332: trescientos treinta y dos
+  333: trescientos treinta y tres
+  334: trescientos treinta y cuatro
+  335: trescientos treinta y cinco
+  336: trescientos treinta y seis
+  337: trescientos treinta y siete
+  338: trescientos treinta y ocho
+  339: trescientos treinta y nueve
+  340: trescientos cuarenta
+  341: trescientos cuarenta y uno
+  342: trescientos cuarenta y dos
+  343: trescientos cuarenta y tres
+  344: trescientos cuarenta y cuatro
+  345: trescientos cuarenta y cinco
+  346: trescientos cuarenta y seis
+  347: trescientos cuarenta y siete
+  348: trescientos cuarenta y ocho
+  349: trescientos cuarenta y nueve
+  350: trescientos cincuenta
+  351: trescientos cincuenta y uno
+  352: trescientos cincuenta y dos
+  353: trescientos cincuenta y tres
+  354: trescientos cincuenta y cuatro
+  355: trescientos cincuenta y cinco
+  356: trescientos cincuenta y seis
+  357: trescientos cincuenta y siete
+  358: trescientos cincuenta y ocho
+  359: trescientos cincuenta y nueve
+  360: trescientos sesenta
+  361: trescientos sesenta y uno
+  362: trescientos sesenta y dos
+  363: trescientos sesenta y tres
+  364: trescientos sesenta y cuatro
+  365: trescientos sesenta y cinco
+  366: trescientos sesenta y seis
+  367: trescientos sesenta y siete
+  368: trescientos sesenta y ocho
+  369: trescientos sesenta y nueve
+  370: trescientos setenta
+  371: trescientos setenta y uno
+  372: trescientos setenta y dos
+  373: trescientos setenta y tres
+  374: trescientos setenta y cuatro
+  375: trescientos setenta y cinco
+  376: trescientos setenta y seis
+  377: trescientos setenta y siete
+  378: trescientos setenta y ocho
+  379: trescientos setenta y nueve
+  380: trescientos ochenta
+  381: trescientos ochenta y uno
+  382: trescientos ochenta y dos
+  383: trescientos ochenta y tres
+  384: trescientos ochenta y cuatro
+  385: trescientos ochenta y cinco
+  386: trescientos ochenta y seis
+  387: trescientos ochenta y siete
+  388: trescientos ochenta y ocho
+  389: trescientos ochenta y nueve
+  390: trescientos noventa
+  391: trescientos noventa y uno
+  392: trescientos noventa y dos
+  393: trescientos noventa y tres
+  394: trescientos noventa y cuatro
+  395: trescientos noventa y cinco
+  396: trescientos noventa y seis
+  397: trescientos noventa y siete
+  398: trescientos noventa y ocho
+  399: trescientos noventa y nueve
+  400: cuatrocientos
+  401: cuatrocientosuno
+  402: cuatrocientosdos
+  403: cuatrocientostres
+  404: cuatrocientoscuatro
+  405: cuatrocientoscinco
+  406: cuatrocientosseis
+  407: cuatrocientossiete
+  408: cuatrocientosocho
+  409: cuatrocientosnueve
+  410: cuatrocientosdiez
+  411: cuatrocientosonce
+  412: cuatrocientosdoce
+  413: cuatrocientostrece
+  414: cuatrocientoscatorce
+  415: cuatrocientosquince
+  416: cuatrocientosdieciséis
+  417: cuatrocientosdiecisiete
+  418: cuatrocientosdieciocho
+  419: cuatrocientosdiecinueve
+  420: cuatrocientosveinte
+  421: cuatrocientosveintiuno
+  422: cuatrocientosveintidos
+  423: cuatrocientosveintitres
+  424: cuatrocientosveinticuatro
+  425: cuatrocientosveinticinco
+  426: cuatrocientosveintiseis
+  427: cuatrocientosveintisiete
+  428: cuatrocientosveintiocho
+  429: cuatrocientosveintinueve
+  430: cuatrocientostreinta
+  431: cuatrocientostreinta y uno
+  432: cuatrocientostreinta y dos
+  433: cuatrocientostreinta y tres
+  434: cuatrocientostreinta y cuatro
+  435: cuatrocientostreinta y cinco
+  436: cuatrocientostreinta y seis
+  437: cuatrocientostreinta y siete
+  438: cuatrocientostreinta y ocho
+  439: cuatrocientostreinta y nueve
+  440: cuatrocientoscuarenta
+  441: cuatrocientoscuarenta y uno
+  442: cuatrocientoscuarenta y dos
+  443: cuatrocientoscuarenta y tres
+  444: cuatrocientoscuarenta y cuatro
+  445: cuatrocientoscuarenta y cinco
+  446: cuatrocientoscuarenta y seis
+  447: cuatrocientoscuarenta y siete
+  448: cuatrocientoscuarenta y ocho
+  449: cuatrocientoscuarenta y nueve
+  450: cuatrocientoscincuenta
+  451: cuatrocientoscincuenta y uno
+  452: cuatrocientoscincuenta y dos
+  453: cuatrocientoscincuenta y tres
+  454: cuatrocientoscincuenta y cuatro
+  455: cuatrocientoscincuenta y cinco
+  456: cuatrocientoscincuenta y seis
+  457: cuatrocientoscincuenta y siete
+  458: cuatrocientoscincuenta y ocho
+  459: cuatrocientoscincuenta y nueve
+  460: cuatrocientossesenta
+  461: cuatrocientossesenta y uno
+  462: cuatrocientossesenta y dos
+  463: cuatrocientossesenta y tres
+  464: cuatrocientossesenta y cuatro
+  465: cuatrocientossesenta y cinco
+  466: cuatrocientossesenta y seis
+  467: cuatrocientossesenta y siete
+  468: cuatrocientossesenta y ocho
+  469: cuatrocientossesenta y nueve
+  470: cuatrocientossetenta
+  471: cuatrocientossetenta y uno
+  472: cuatrocientossetenta y dos
+  473: cuatrocientossetenta y tres
+  474: cuatrocientossetenta y cuatro
+  475: cuatrocientossetenta y cinco
+  476: cuatrocientossetenta y seis
+  477: cuatrocientossetenta y siete
+  478: cuatrocientossetenta y ocho
+  479: cuatrocientossetenta y nueve
+  480: cuatrocientosochenta
+  481: cuatrocientosochenta y uno
+  482: cuatrocientosochenta y dos
+  483: cuatrocientosochenta y tres
+  484: cuatrocientosochenta y cuatro
+  485: cuatrocientosochenta y cinco
+  486: cuatrocientosochenta y seis
+  487: cuatrocientosochenta y siete
+  488: cuatrocientosochenta y ocho
+  489: cuatrocientosochenta y nueve
+  490: cuatrocientosnoventa
+  491: cuatrocientosnoventa y uno
+  492: cuatrocientosnoventa y dos
+  493: cuatrocientosnoventa y tres
+  494: cuatrocientosnoventa y cuatro
+  495: cuatrocientosnoventa y cinco
+  496: cuatrocientosnoventa y seis
+  497: cuatrocientosnoventa y siete
+  498: cuatrocientosnoventa y ocho
+  499: cuatrocientosnoventa y nueve
+  500: quinientos 
+  501: quinientos uno
+  502: quinientos dos
+  503: quinientos tres
+  504: quinientos cuatro
+  505: quinientos cinco
+  506: quinientos seis
+  507: quinientos siete
+  508: quinientos ocho
+  509: quinientos nueve
+  510: quinientos diez
+  511: quinientos once
+  512: quinientos doce
+  513: quinientos trece
+  514: quinientos catorce
+  515: quinientos quince
+  516: quinientos dieciséis
+  517: quinientos diecisiete
+  518: quinientos dieciocho
+  519: quinientos diecinueve
+  520: quinientos veinte
+  521: quinientos veintiuno
+  522: quinientos veintidos
+  523: quinientos veintitres
+  524: quinientos veinticuatro
+  525: quinientos veinticinco
+  526: quinientos veintiseis
+  527: quinientos veintisiete
+  528: quinientos veintiocho
+  529: quinientos veintinueve
+  530: quinientos treinta
+  531: quinientos treinta y uno
+  532: quinientos treinta y dos
+  533: quinientos treinta y tres
+  534: quinientos treinta y cuatro
+  535: quinientos treinta y cinco
+  536: quinientos treinta y seis
+  537: quinientos treinta y siete
+  538: quinientos treinta y ocho
+  539: quinientos treinta y nueve
+  540: quinientos cuarenta
+  541: quinientos cuarenta y uno
+  542: quinientos cuarenta y dos
+  543: quinientos cuarenta y tres
+  544: quinientos cuarenta y cuatro
+  545: quinientos cuarenta y cinco
+  546: quinientos cuarenta y seis
+  547: quinientos cuarenta y siete
+  548: quinientos cuarenta y ocho
+  549: quinientos cuarenta y nueve
+  550: quinientos cincuenta
+  551: quinientos cincuenta y uno
+  552: quinientos cincuenta y dos
+  553: quinientos cincuenta y tres
+  554: quinientos cincuenta y cuatro
+  555: quinientos cincuenta y cinco
+  556: quinientos cincuenta y seis
+  557: quinientos cincuenta y siete
+  558: quinientos cincuenta y ocho
+  559: quinientos cincuenta y nueve
+  560: quinientos sesenta
+  561: quinientos sesenta y uno
+  562: quinientos sesenta y dos
+  563: quinientos sesenta y tres
+  564: quinientos sesenta y cuatro
+  565: quinientos sesenta y cinco
+  566: quinientos sesenta y seis
+  567: quinientos sesenta y siete
+  568: quinientos sesenta y ocho
+  569: quinientos sesenta y nueve
+  570: quinientos setenta
+  571: quinientos setenta y uno
+  572: quinientos setenta y dos
+  573: quinientos setenta y tres
+  574: quinientos setenta y cuatro
+  575: quinientos setenta y cinco
+  576: quinientos setenta y seis
+  577: quinientos setenta y siete
+  578: quinientos setenta y ocho
+  579: quinientos setenta y nueve
+  580: quinientos ochenta
+  581: quinientos ochenta y uno
+  582: quinientos ochenta y dos
+  583: quinientos ochenta y tres
+  584: quinientos ochenta y cuatro
+  585: quinientos ochenta y cinco
+  586: quinientos ochenta y seis
+  587: quinientos ochenta y siete
+  588: quinientos ochenta y ocho
+  589: quinientos ochenta y nueve
+  590: quinientos noventa
+  591: quinientos noventa y uno
+  592: quinientos noventa y dos
+  593: quinientos noventa y tres
+  594: quinientos noventa y cuatro
+  595: quinientos noventa y cinco
+  596: quinientos noventa y seis
+  597: quinientos noventa y siete
+  598: quinientos noventa y ocho
+  599: quinientos noventa y nueve
+  600: seiscientos
+  601: seiscientosuno
+  602: seiscientosdos
+  603: seiscientostres
+  604: seiscientoscuatro
+  605: seiscientoscinco
+  606: seiscientosseis
+  607: seiscientossiete
+  608: seiscientosocho
+  609: seiscientosnueve
+  610: seiscientosdiez
+  611: seiscientosonce
+  612: seiscientosdoce
+  613: seiscientostrece
+  614: seiscientoscatorce
+  615: seiscientosquince
+  616: seiscientosdieciséis
+  617: seiscientosdiecisiete
+  618: seiscientosdieciocho
+  619: seiscientosdiecinueve
+  620: seiscientosveinte
+  621: seiscientosveintiuno
+  622: seiscientosveintidos
+  623: seiscientosveintitres
+  624: seiscientosveinticuatro
+  625: seiscientosveinticinco
+  626: seiscientosveintiseis
+  627: seiscientosveintisiete
+  628: seiscientosveintiocho
+  629: seiscientosveintinueve
+  630: seiscientostreinta
+  631: seiscientostreinta y uno
+  632: seiscientostreinta y dos
+  633: seiscientostreinta y tres
+  634: seiscientostreinta y cuatro
+  635: seiscientostreinta y cinco
+  636: seiscientostreinta y seis
+  637: seiscientostreinta y siete
+  638: seiscientostreinta y ocho
+  639: seiscientostreinta y nueve
+  640: seiscientoscuarenta
+  641: seiscientoscuarenta y uno
+  642: seiscientoscuarenta y dos
+  643: seiscientoscuarenta y tres
+  644: seiscientoscuarenta y cuatro
+  645: seiscientoscuarenta y cinco
+  646: seiscientoscuarenta y seis
+  647: seiscientoscuarenta y siete
+  648: seiscientoscuarenta y ocho
+  649: seiscientoscuarenta y nueve
+  650: seiscientoscincuenta
+  651: seiscientoscincuenta y uno
+  652: seiscientoscincuenta y dos
+  653: seiscientoscincuenta y tres
+  654: seiscientoscincuenta y cuatro
+  655: seiscientoscincuenta y cinco
+  656: seiscientoscincuenta y seis
+  657: seiscientoscincuenta y siete
+  658: seiscientoscincuenta y ocho
+  659: seiscientoscincuenta y nueve
+  660: seiscientossesenta
+  661: seiscientossesenta y uno
+  662: seiscientossesenta y dos
+  663: seiscientossesenta y tres
+  664: seiscientossesenta y cuatro
+  665: seiscientossesenta y cinco
+  666: seiscientossesenta y seis
+  667: seiscientossesenta y siete
+  668: seiscientossesenta y ocho
+  669: seiscientossesenta y nueve
+  670: seiscientossetenta
+  671: seiscientossetenta y uno
+  672: seiscientossetenta y dos
+  673: seiscientossetenta y tres
+  674: seiscientossetenta y cuatro
+  675: seiscientossetenta y cinco
+  676: seiscientossetenta y seis
+  677: seiscientossetenta y siete
+  678: seiscientossetenta y ocho
+  679: seiscientossetenta y nueve
+  680: seiscientosochenta
+  681: seiscientosochenta y uno
+  682: seiscientosochenta y dos
+  683: seiscientosochenta y tres
+  684: seiscientosochenta y cuatro
+  685: seiscientosochenta y cinco
+  686: seiscientosochenta y seis
+  687: seiscientosochenta y siete
+  688: seiscientosochenta y ocho
+  689: seiscientosochenta y nueve
+  690: seiscientosnoventa
+  691: seiscientosnoventa y uno
+  692: seiscientosnoventa y dos
+  693: seiscientosnoventa y tres
+  694: seiscientosnoventa y cuatro
+  695: seiscientosnoventa y cinco
+  696: seiscientosnoventa y seis
+  697: seiscientosnoventa y siete
+  698: seiscientosnoventa y ocho
+  699: seiscientosnoventa y nueve
+  700: setecientos 
+  701: setecientos uno
+  702: setecientos dos
+  703: setecientos tres
+  704: setecientos cuatro
+  705: setecientos cinco
+  706: setecientos seis
+  707: setecientos siete
+  708: setecientos ocho
+  709: setecientos nueve
+  710: setecientos diez
+  711: setecientos once
+  712: setecientos doce
+  713: setecientos trece
+  714: setecientos catorce
+  715: setecientos quince
+  716: setecientos dieciséis
+  717: setecientos diecisiete
+  718: setecientos dieciocho
+  719: setecientos diecinueve
+  720: setecientos veinte
+  721: setecientos veintiuno
+  722: setecientos veintidos
+  723: setecientos veintitres
+  724: setecientos veinticuatro
+  725: setecientos veinticinco
+  726: setecientos veintiseis
+  727: setecientos veintisiete
+  728: setecientos veintiocho
+  729: setecientos veintinueve
+  730: setecientos treinta
+  731: setecientos treinta y uno
+  732: setecientos treinta y dos
+  733: setecientos treinta y tres
+  734: setecientos treinta y cuatro
+  735: setecientos treinta y cinco
+  736: setecientos treinta y seis
+  737: setecientos treinta y siete
+  738: setecientos treinta y ocho
+  739: setecientos treinta y nueve
+  740: setecientos cuarenta
+  741: setecientos cuarenta y uno
+  742: setecientos cuarenta y dos
+  743: setecientos cuarenta y tres
+  744: setecientos cuarenta y cuatro
+  745: setecientos cuarenta y cinco
+  746: setecientos cuarenta y seis
+  747: setecientos cuarenta y siete
+  748: setecientos cuarenta y ocho
+  749: setecientos cuarenta y nueve
+  750: setecientos cincuenta
+  751: setecientos cincuenta y uno
+  752: setecientos cincuenta y dos
+  753: setecientos cincuenta y tres
+  754: setecientos cincuenta y cuatro
+  755: setecientos cincuenta y cinco
+  756: setecientos cincuenta y seis
+  757: setecientos cincuenta y siete
+  758: setecientos cincuenta y ocho
+  759: setecientos cincuenta y nueve
+  760: setecientos sesenta
+  761: setecientos sesenta y uno
+  762: setecientos sesenta y dos
+  763: setecientos sesenta y tres
+  764: setecientos sesenta y cuatro
+  765: setecientos sesenta y cinco
+  766: setecientos sesenta y seis
+  767: setecientos sesenta y siete
+  768: setecientos sesenta y ocho
+  769: setecientos sesenta y nueve
+  770: setecientos setenta
+  771: setecientos setenta y uno
+  772: setecientos setenta y dos
+  773: setecientos setenta y tres
+  774: setecientos setenta y cuatro
+  775: setecientos setenta y cinco
+  776: setecientos setenta y seis
+  777: setecientos setenta y siete
+  778: setecientos setenta y ocho
+  779: setecientos setenta y nueve
+  780: setecientos ochenta
+  781: setecientos ochenta y uno
+  782: setecientos ochenta y dos
+  783: setecientos ochenta y tres
+  784: setecientos ochenta y cuatro
+  785: setecientos ochenta y cinco
+  786: setecientos ochenta y seis
+  787: setecientos ochenta y siete
+  788: setecientos ochenta y ocho
+  789: setecientos ochenta y nueve
+  790: setecientos noventa
+  791: setecientos noventa y uno
+  792: setecientos noventa y dos
+  793: setecientos noventa y tres
+  794: setecientos noventa y cuatro
+  795: setecientos noventa y cinco
+  796: setecientos noventa y seis
+  797: setecientos noventa y siete
+  798: setecientos noventa y ocho
+  799: setecientos noventa y nueve
+  800: ochocientos
+  801: ochocientosuno
+  802: ochocientosdos
+  803: ochocientostres
+  804: ochocientoscuatro
+  805: ochocientoscinco
+  806: ochocientosseis
+  807: ochocientossiete
+  808: ochocientosocho
+  809: ochocientosnueve
+  810: ochocientosdiez
+  811: ochocientosonce
+  812: ochocientosdoce
+  813: ochocientostrece
+  814: ochocientoscatorce
+  815: ochocientosquince
+  816: ochocientosdieciséis
+  817: ochocientosdiecisiete
+  818: ochocientosdieciocho
+  819: ochocientosdiecinueve
+  820: ochocientosveinte
+  821: ochocientosveintiuno
+  822: ochocientosveintidos
+  823: ochocientosveintitres
+  824: ochocientosveinticuatro
+  825: ochocientosveinticinco
+  826: ochocientosveintiseis
+  827: ochocientosveintisiete
+  828: ochocientosveintiocho
+  829: ochocientosveintinueve
+  830: ochocientostreinta
+  831: ochocientostreinta y uno
+  832: ochocientostreinta y dos
+  833: ochocientostreinta y tres
+  834: ochocientostreinta y cuatro
+  835: ochocientostreinta y cinco
+  836: ochocientostreinta y seis
+  837: ochocientostreinta y siete
+  838: ochocientostreinta y ocho
+  839: ochocientostreinta y nueve
+  840: ochocientoscuarenta
+  841: ochocientoscuarenta y uno
+  842: ochocientoscuarenta y dos
+  843: ochocientoscuarenta y tres
+  844: ochocientoscuarenta y cuatro
+  845: ochocientoscuarenta y cinco
+  846: ochocientoscuarenta y seis
+  847: ochocientoscuarenta y siete
+  848: ochocientoscuarenta y ocho
+  849: ochocientoscuarenta y nueve
+  850: ochocientoscincuenta
+  851: ochocientoscincuenta y uno
+  852: ochocientoscincuenta y dos
+  853: ochocientoscincuenta y tres
+  854: ochocientoscincuenta y cuatro
+  855: ochocientoscincuenta y cinco
+  856: ochocientoscincuenta y seis
+  857: ochocientoscincuenta y siete
+  858: ochocientoscincuenta y ocho
+  859: ochocientoscincuenta y nueve
+  860: ochocientossesenta
+  861: ochocientossesenta y uno
+  862: ochocientossesenta y dos
+  863: ochocientossesenta y tres
+  864: ochocientossesenta y cuatro
+  865: ochocientossesenta y cinco
+  866: ochocientossesenta y seis
+  867: ochocientossesenta y siete
+  868: ochocientossesenta y ocho
+  869: ochocientossesenta y nueve
+  870: ochocientossetenta
+  871: ochocientossetenta y uno
+  872: ochocientossetenta y dos
+  873: ochocientossetenta y tres
+  874: ochocientossetenta y cuatro
+  875: ochocientossetenta y cinco
+  876: ochocientossetenta y seis
+  877: ochocientossetenta y siete
+  878: ochocientossetenta y ocho
+  879: ochocientossetenta y nueve
+  880: ochocientosochenta
+  881: ochocientosochenta y uno
+  882: ochocientosochenta y dos
+  883: ochocientosochenta y tres
+  884: ochocientosochenta y cuatro
+  885: ochocientosochenta y cinco
+  886: ochocientosochenta y seis
+  887: ochocientosochenta y siete
+  888: ochocientosochenta y ocho
+  889: ochocientosochenta y nueve
+  890: ochocientosnoventa
+  891: ochocientosnoventa y uno
+  892: ochocientosnoventa y dos
+  893: ochocientosnoventa y tres
+  894: ochocientosnoventa y cuatro
+  895: ochocientosnoventa y cinco
+  896: ochocientosnoventa y seis
+  897: ochocientosnoventa y siete
+  898: ochocientosnoventa y ocho
+  899: ochocientosnoventa y nueve
+  900: novecientos 
+  901: novecientos uno
+  902: novecientos dos
+  903: novecientos tres
+  904: novecientos cuatro
+  905: novecientos cinco
+  906: novecientos seis
+  907: novecientos siete
+  908: novecientos ocho
+  909: novecientos nueve
+  910: novecientos diez
+  911: novecientos once
+  912: novecientos doce
+  913: novecientos trece
+  914: novecientos catorce
+  915: novecientos quince
+  916: novecientos dieciséis
+  917: novecientos diecisiete
+  918: novecientos dieciocho
+  919: novecientos diecinueve
+  920: novecientos veinte
+  921: novecientos veintiuno
+  922: novecientos veintidos
+  923: novecientos veintitres
+  924: novecientos veinticuatro
+  925: novecientos veinticinco
+  926: novecientos veintiseis
+  927: novecientos veintisiete
+  928: novecientos veintiocho
+  929: novecientos veintinueve
+  930: novecientos treinta
+  931: novecientos treinta y uno
+  932: novecientos treinta y dos
+  933: novecientos treinta y tres
+  934: novecientos treinta y cuatro
+  935: novecientos treinta y cinco
+  936: novecientos treinta y seis
+  937: novecientos treinta y siete
+  938: novecientos treinta y ocho
+  939: novecientos treinta y nueve
+  940: novecientos cuarenta
+  941: novecientos cuarenta y uno
+  942: novecientos cuarenta y dos
+  943: novecientos cuarenta y tres
+  944: novecientos cuarenta y cuatro
+  945: novecientos cuarenta y cinco
+  946: novecientos cuarenta y seis
+  947: novecientos cuarenta y siete
+  948: novecientos cuarenta y ocho
+  949: novecientos cuarenta y nueve
+  950: novecientos cincuenta
+  951: novecientos cincuenta y uno
+  952: novecientos cincuenta y dos
+  953: novecientos cincuenta y tres
+  954: novecientos cincuenta y cuatro
+  955: novecientos cincuenta y cinco
+  956: novecientos cincuenta y seis
+  957: novecientos cincuenta y siete
+  958: novecientos cincuenta y ocho
+  959: novecientos cincuenta y nueve
+  960: novecientos sesenta
+  961: novecientos sesenta y uno
+  962: novecientos sesenta y dos
+  963: novecientos sesenta y tres
+  964: novecientos sesenta y cuatro
+  965: novecientos sesenta y cinco
+  966: novecientos sesenta y seis
+  967: novecientos sesenta y siete
+  968: novecientos sesenta y ocho
+  969: novecientos sesenta y nueve
+  970: novecientos setenta
+  971: novecientos setenta y uno
+  972: novecientos setenta y dos
+  973: novecientos setenta y tres
+  974: novecientos setenta y cuatro
+  975: novecientos setenta y cinco
+  976: novecientos setenta y seis
+  977: novecientos setenta y siete
+  978: novecientos setenta y ocho
+  979: novecientos setenta y nueve
+  980: novecientos ochenta
+  981: novecientos ochenta y uno
+  982: novecientos ochenta y dos
+  983: novecientos ochenta y tres
+  984: novecientos ochenta y cuatro
+  985: novecientos ochenta y cinco
+  986: novecientos ochenta y seis
+  987: novecientos ochenta y siete
+  988: novecientos ochenta y ocho
+  989: novecientos ochenta y nueve
+  990: novecientos noventa
+  991: novecientos noventa y uno
+  992: novecientos noventa y dos
+  993: novecientos noventa y tres
+  994: novecientos noventa y cuatro
+  995: novecientos noventa y cinco
+  996: novecientos noventa y seis
+  997: novecientos noventa y siete
+  998: novecientos noventa y ocho
+  999: novecientos noventa y nueve
