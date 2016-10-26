@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include <string.h>  //quitar string.h para hacer el ejercicio
 #define T 100
 int main()
 {
@@ -21,9 +21,9 @@ int main()
 	puts(t3);
 
 	//longitud de la cadena
-	printf("La longitud de la cadena %s es %d \n", t1, strlen(t1));	
-	printf("La longitud de la cadena %s es %d \n", t2, strlen(t2));	
-	printf("La longitud de la cadena %s es %d \n", t3, strlen(t3));	
+	printf("La longitud de la cadena %s es %d \n", t1, (int)strlen(t1));	
+	printf("La longitud de la cadena %s es %d \n", t2, (int)strlen(t2));	
+	printf("La longitud de la cadena %s es %d \n", t3, (int)strlen(t3));	
 
 	
 	//orden alfabetico
