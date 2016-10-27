@@ -1,4 +1,4 @@
-## https://git-scm.com/docs/gittutorial
+##  extraido de  https://git-scm.com/docs/gittutorial
 # It is a good idea to introduce yourself to Git with your name and public email 
 # address before doing any operation. The easiest way to do so is:
 
