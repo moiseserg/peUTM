@@ -23,6 +23,8 @@ int main(){
     {
         scanf("%s", palabra);
         printf("\nBuscando %s\n", palabra );
+
+		// lógica de esta llamada?
         buscar1(d, f,c, palabra) ||    buscar2(d, f,c, palabra);
 
     }
