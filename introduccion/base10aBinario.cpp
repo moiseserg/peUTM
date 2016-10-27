@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(){
+	int a;
+	scanf("%d", &a);
+	printf("%d", (a>>15)&1);
+	printf("%d", (a>>14)&1);
+	printf("%d", (a>>13)&1);
+	printf("%d", (a>>12)&1);
+	printf("%d", (a>>11)&1);
+	printf("%d", (a>>10)&1);
+	printf("%d", (a>>9)&1);
+	printf("%d", (a>>8)&1);
+	printf("%d", (a>>7)&1);
+	printf("%d", (a>>6)&1);
+	printf("%d", (a>>5)&1);
+	printf("%d", (a>>4)&1);
+	printf("%d", (a>>3)&1);
+	printf("%d", (a>>2)&1);
+	printf("%d", (a>>1)&1);
+	printf("%d", a&1);
+	return 0;
+	}
