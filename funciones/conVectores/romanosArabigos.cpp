@@ -14,20 +14,28 @@ int valorRomano(char c){
 	return 0;
 }
 
-int main(){
-	int  suma=0;
-	char r[20];
 
-	gets(r);	
-
-	for(int i=0; r[i]!='\0' ; i++)
+int getArabigo(char r[]){
+	int i, suma=0;
+	
+	for( i=0; r[i]!='\0' ; i++)
 		if(valorRomano(r[i])<valorRomano(r[i+1]))
 			suma -= valorRomano(r[i]);
 		else
 			suma += valorRomano(r[i]);
 
-
-	printf("%d\n",suma );
-
-
+	return suma;
 }
+
+int main(){
+	int  suma=0;
+	char r[20];
+	gets(r);	
+	printf("%d\n",  getArabigo(r));
+}
+
+/*
+./romanosArabigos 
+CCCXLIX
+349
+*/
