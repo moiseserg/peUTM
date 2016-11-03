@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void hola(){
-  printf("Hola funciones en C");
+  printf("Hola funciones en C\n");
 }
 
 int main(){
