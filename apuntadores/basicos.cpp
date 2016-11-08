@@ -19,7 +19,9 @@ int main(){
 	printf("%p  %d  \n", ptr, *ptr);
 	*/
 
-	for( ptr = b; ptr != b+5 ; ptr++, b++ )
+	//int b[5] = {3,2,5,7};
+	// b = &b[0]
+	for( ptr = &b[0]; ptr != b+5 ; ptr++)
 		printf("::%p  %d  \n", ptr, *ptr);		
 
 }
