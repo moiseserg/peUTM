@@ -105,10 +105,6 @@ int main(){
 
 	printDicc(dicc, nd);
 
-
-	ordenamiento(dicc, nd);
-
-	printDicc(dicc, nd);
 	return 0;
 }
 
