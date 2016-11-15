@@ -15,10 +15,10 @@ int incrementa2(int *x){
 int main(){
 	
 	int a = 10;
-	printf("En main antes de incrementa1 (a) %p %d\n", &a, a );
+/*	printf("En main antes de incrementa1 (a) %p %d\n", &a, a );
 	incrementa1(a);
 	printf("En main despues de incrementa1  (a)  %p %d\n", &a, a );
-
+*/
 	printf("\nEn main antes de incrementa2  (a) %p %d\n", &a, a );
 	incrementa2(&a);
 	printf("En main despues de incrementa2  (a) %p %d\n", &a, a );

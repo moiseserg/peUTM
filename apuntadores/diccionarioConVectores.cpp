@@ -4,7 +4,6 @@
 #include <math.h>
 
 void minusculas(char *t){
-
 	while(*t) {
 		if(*t>='A' && *t<='Z')
 			(*t) += 32;
@@ -95,15 +94,15 @@ int main(){
 		if(feof(stdin))
 			break;
 		minusculas(txt);
-		//puts(txt);
+		puts(txt);
 
-		crearDiccionario(dicc, &nd, txt);
+		//crearDiccionario(dicc, &nd, txt);
 		
 		
 
 	}
 
-	printDicc(dicc, nd);
+	//printDicc(dicc, nd);
 
 	return 0;
 }
