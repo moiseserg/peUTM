@@ -44,9 +44,12 @@ void crearDiccionario( char d[ ][20], int *nd, char *txt){
 
 	char *ptr = strtok(txt, " ");
 	while(ptr){
-		if(!estaEnDicc(d, *nd, ptr))				
-			strcpy(d[ (*nd)++	], ptr);	
-
+		if(!estaEnDicc(d, *nd, ptr)){				
+			strcpy(d[ (*nd)	], ptr);	
+			*nd  += 1;
+		}
+		
+		puts(ptr);
 		ptr = strtok(NULL, " ");
 	}
 
@@ -54,8 +57,7 @@ void crearDiccionario( char d[ ][20], int *nd, char *txt){
  
 
  void printDicc(char d[ ][20],  int n){
- //void printDicc(char *d[],  int n){
- 	
+ //void printDicc(char *d[],  int n){ 	
  	printf("\nDiccionario\n");
  	for(int i=0; i<n; i++){
  		printf("%3d %s\n",i+1, d[i] );		
@@ -95,14 +97,11 @@ int main(){
 			break;
 		minusculas(txt);
 		puts(txt);
+		crearDiccionario(dicc, &nd, txt);
 
-		//crearDiccionario(dicc, &nd, txt);
-		
-		
-
+		printDicc(dicc, nd);
 	}
 
-	//printDicc(dicc, nd);
 
 	return 0;
 }

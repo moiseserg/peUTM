@@ -1,0 +1,224 @@
+AAAAAPAAAA
+AAGATOAAAA
+AAAAALAAAA
+AAAAALAAAA
+AAAAAOAAAA
+AAAAAAAAAA
+AORREPAAAA
+AAAAAAAAAA
+AAAAAAAAAA
+AAAAAAAAAA
+ leido 3
+
+Buscando GATO
+Buscando en 0 0 -> A
+Buscando en 0 1 -> A
+Buscando en 0 2 -> A
+Buscando en 0 3 -> A
+Buscando en 0 4 -> A
+Buscando en 0 5 -> P
+Buscando en 0 6 -> A
+Buscando en 1 0 -> A
+Buscando en 1 1 -> A
+Buscando en 1 2 -> G
+Está en 1 2
+
+Buscando POLLO
+Buscando en 0 0 -> A
+Buscando en 0 1 -> A
+Buscando en 0 2 -> A
+Buscando en 0 3 -> A
+Buscando en 0 4 -> A
+Buscando en 0 5 -> P
+Buscando en 1 0 -> A
+Buscando en 1 1 -> A
+Buscando en 1 2 -> G
+Buscando en 1 3 -> A
+Buscando en 1 4 -> T
+Buscando en 1 5 -> O
+Buscando en 2 0 -> A
+Buscando en 2 1 -> A
+Buscando en 2 2 -> A
+Buscando en 2 3 -> A
+Buscando en 2 4 -> A
+Buscando en 2 5 -> L
+Buscando en 3 0 -> A
+Buscando en 3 1 -> A
+Buscando en 3 2 -> A
+Buscando en 3 3 -> A
+Buscando en 3 4 -> A
+Buscando en 3 5 -> L
+Buscando en 4 0 -> A
+Buscando en 4 1 -> A
+Buscando en 4 2 -> A
+Buscando en 4 3 -> A
+Buscando en 4 4 -> A
+Buscando en 4 5 -> O
+Buscando en 5 0 -> A
+Buscando en 5 1 -> A
+Buscando en 5 2 -> A
+Buscando en 5 3 -> A
+Buscando en 5 4 -> A
+Buscando en 5 5 -> A
+Buscando en 6 0 -> A
+Buscando en 6 1 -> O
+Buscando en 6 2 -> R
+Buscando en 6 3 -> R
+Buscando en 6 4 -> E
+Buscando en 6 5 -> P
+Buscando en 7 0 -> A
+Buscando en 7 1 -> A
+Buscando en 7 2 -> A
+Buscando en 7 3 -> A
+Buscando en 7 4 -> A
+Buscando en 7 5 -> A
+Buscando en 8 0 -> A
+Buscando en 8 1 -> A
+Buscando en 8 2 -> A
+Buscando en 8 3 -> A
+Buscando en 8 4 -> A
+Buscando en 8 5 -> A
+Buscando en 9 0 -> A
+Buscando en 9 1 -> A
+Buscando en 9 2 -> A
+Buscando en 9 3 -> A
+Buscando en 9 4 -> A
+Buscando en 9 5 -> A
+Buscando en 0 0 -> A
+Buscando en 0 1 -> A
+Buscando en 0 2 -> A
+Buscando en 0 3 -> A
+Buscando en 0 4 -> A
+Buscando en 0 5 -> P
+   P != P? 
+   P != P? 
+   O != O? 
+   L != L? 
+   L != L? 
+   O != O? 
+Está en 0 5
+
+Buscando PERRO
+Buscando en 0 0 -> A
+Buscando en 0 1 -> A
+Buscando en 0 2 -> A
+Buscando en 0 3 -> A
+Buscando en 0 4 -> A
+Buscando en 0 5 -> P
+Buscando en 1 0 -> A
+Buscando en 1 1 -> A
+Buscando en 1 2 -> G
+Buscando en 1 3 -> A
+Buscando en 1 4 -> T
+Buscando en 1 5 -> O
+Buscando en 2 0 -> A
+Buscando en 2 1 -> A
+Buscando en 2 2 -> A
+Buscando en 2 3 -> A
+Buscando en 2 4 -> A
+Buscando en 2 5 -> L
+Buscando en 3 0 -> A
+Buscando en 3 1 -> A
+Buscando en 3 2 -> A
+Buscando en 3 3 -> A
+Buscando en 3 4 -> A
+Buscando en 3 5 -> L
+Buscando en 4 0 -> A
+Buscando en 4 1 -> A
+Buscando en 4 2 -> A
+Buscando en 4 3 -> A
+Buscando en 4 4 -> A
+Buscando en 4 5 -> O
+Buscando en 5 0 -> A
+Buscando en 5 1 -> A
+Buscando en 5 2 -> A
+Buscando en 5 3 -> A
+Buscando en 5 4 -> A
+Buscando en 5 5 -> A
+Buscando en 6 0 -> A
+Buscando en 6 1 -> O
+Buscando en 6 2 -> R
+Buscando en 6 3 -> R
+Buscando en 6 4 -> E
+Buscando en 6 5 -> P
+Buscando en 7 0 -> A
+Buscando en 7 1 -> A
+Buscando en 7 2 -> A
+Buscando en 7 3 -> A
+Buscando en 7 4 -> A
+Buscando en 7 5 -> A
+Buscando en 8 0 -> A
+Buscando en 8 1 -> A
+Buscando en 8 2 -> A
+Buscando en 8 3 -> A
+Buscando en 8 4 -> A
+Buscando en 8 5 -> A
+Buscando en 9 0 -> A
+Buscando en 9 1 -> A
+Buscando en 9 2 -> A
+Buscando en 9 3 -> A
+Buscando en 9 4 -> A
+Buscando en 9 5 -> A
+Buscando en 0 0 -> A
+Buscando en 0 1 -> A
+Buscando en 0 2 -> A
+Buscando en 0 3 -> A
+Buscando en 0 4 -> A
+Buscando en 0 5 -> P
+   P != P? 
+   P != P? 
+   E != O? 
+Buscando en 0 6 -> A
+Buscando en 0 7 -> A
+Buscando en 0 8 -> A
+Buscando en 0 9 -> A
+Buscando en 1 0 -> A
+Buscando en 1 1 -> A
+Buscando en 1 2 -> G
+Buscando en 1 3 -> A
+Buscando en 1 4 -> T
+Buscando en 1 5 -> O
+Buscando en 1 6 -> A
+Buscando en 1 7 -> A
+Buscando en 1 8 -> A
+Buscando en 1 9 -> A
+Buscando en 2 0 -> A
+Buscando en 2 1 -> A
+Buscando en 2 2 -> A
+Buscando en 2 3 -> A
+Buscando en 2 4 -> A
+Buscando en 2 5 -> L
+Buscando en 2 6 -> A
+Buscando en 2 7 -> A
+Buscando en 2 8 -> A
+Buscando en 2 9 -> A
+Buscando en 3 0 -> A
+Buscando en 3 1 -> A
+Buscando en 3 2 -> A
+Buscando en 3 3 -> A
+Buscando en 3 4 -> A
+Buscando en 3 5 -> L
+Buscando en 3 6 -> A
+Buscando en 3 7 -> A
+Buscando en 3 8 -> A
+Buscando en 3 9 -> A
+Buscando en 4 0 -> A
+Buscando en 4 1 -> A
+Buscando en 4 2 -> A
+Buscando en 4 3 -> A
+Buscando en 4 4 -> A
+Buscando en 4 5 -> O
+Buscando en 4 6 -> A
+Buscando en 4 7 -> A
+Buscando en 4 8 -> A
+Buscando en 4 9 -> A
+Buscando en 5 0 -> A
+Buscando en 5 1 -> A
+Buscando en 5 2 -> A
+Buscando en 5 3 -> A
+Buscando en 5 4 -> A
+Buscando en 5 5 -> A
+Buscando en 5 6 -> A
+Buscando en 5 7 -> A
+Buscando en 5 8 -> A
+Buscando en 5 9 -> A
