@@ -4,8 +4,9 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define T 100
-
+#define T 200000
+unsigned int masks[32];
+unsigned int masksc[32];
 
 struct P{
 	unsigned int v;
@@ -15,7 +16,7 @@ struct P{
 
 float aprox[201];
 
-int inicializar(P pob[100]){
+int inicializar(P pob[T]){
 	for(int i=0; i< T; i++)
 		pob[i].v= random();
 
@@ -34,7 +35,12 @@ float evalua(unsigned int v){
 	int j=0;
 	double i=-10.0, dif, sum=0;
 	for( ; i<= 10.0; i+=0.1, j++){
-		dif = aprox[j] - a*sin(i/b)+c*cos(i*i/d);
+		
+		if(b==0 || d==0)
+			dif =1e20;
+		else
+			dif = aprox[j] - a*sin(i/b)+c*cos(i*i/d);
+
 		sum += dif>0.0?dif:-dif;
 	}
 
@@ -88,22 +94,38 @@ void evaluaPoblacion(P pob[]){
 	}
 }
 
-
-
-void cruza(P pob[]){
-	P aux[100];
-	unsigned int masks[32];
+void mascaras(){
 
 	for (int i = 0, b=0 ; i < 32; ++i){
 		masks[i] = (1<<(i+1))-1;
-		printf("%x\n", masks[i]);
+		masksc[i] = ~masks[i];
+		printf("%x %x\n", masksc[i], masks[i]);
 	}
 
-	for(int i=0 ;i < T ; i++){
-		int pos=random()%30+1;
+}
+
+
+void cruza(P pob[]){
+	P aux[T];
+	int j=0; //contador para aux
+
+	
+	for(int i=0 ;i < T/2 ; i++){
+		int pos=random()%31;
 		int p1 = random()%(T/2);		
 		int p2 = random()%(T/2);
 		//TO DO:
+		aux[j++].v = (masksc[pos] & pob[p1].v) 
+				  +(masks [pos] & pob[p2].v);
+
+		aux[j++].v = (masksc[pos] & pob[p2].v) 
+				  +(masks [pos] & pob[p1].v);
+
+/*		printf("\nMask %x %x\n", masksc[pos], masks[pos]);	  
+		printf("orig %x %x\n", pob[p1].v, pob[p2].v);
+		printf("Res  %x %x\n", aux[j-1].v, aux[j-2].v);
+*/
+
 	}
 
 	for(int i=0 ;i < T ; i++){
@@ -113,12 +135,28 @@ void cruza(P pob[]){
 }
 
 
+void mutar(P pob[], int cuantos){
+	
+	for(int i=0 ;i < cuantos ; i++){
+		int pos=random()%T;	
+		int bit=random()%32;	
+		pob[pos].v =  pob[pos].v ^ (1<<bit);
+	}
+}
+
 int main(){
 	P pob[T];
 	srand(time(NULL));
 	inicializar(pob);
-	evaluaPoblacion(pob);
-	cruza(pob);
+	mascaras();
+
+
+	for(int i=0; i<100; i++){
+		printf("Generacion %d\n", i+1 );
+		evaluaPoblacion(pob);
+		cruza(pob);
+		mutar(pob, T/10);
+	}
 
 
 
