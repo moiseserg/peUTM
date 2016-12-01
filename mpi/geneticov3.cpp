@@ -6,7 +6,7 @@
 #include <omp.h>
 
 
-#define T 20000
+#define T 1000 
 unsigned int masks[32];
 unsigned int masksc[32];
 FILE *arch = NULL;
@@ -70,12 +70,14 @@ void binario(unsigned int i, int n){
 	printf(" ");
 }
 
-void printElemento(P p){
+void printElemento(P p, char msg[]){
 
 /*	int d = v & 0xff;
 	int c = (v>>8) & 0xff;
 	int b = (v>>16) & 0xff;
 	int a = (v>>24) & 0xff;*/
+
+	printf("%s ", msg );
 
 	for(int i=24; i>=0; i-=8 )
 		binario( ( p.v >> i) & 0xff, 8);
@@ -89,17 +91,17 @@ void printElemento(P p){
 void evaluaPoblacion(P pob[], int n){
 
 	
-	#pragma omp parallel for
+	//#pragma omp parallel for
 	for (int i = 0; i < n; ++i){
 		pob[i].aptitud = evalua(pob[i].v);
 	}
 
 	//qsort(pob, n, sizeof (P), compara);
 
-	for (int i = 0; i < 2; ++i){
+	/*for (int i = 0; i < 2; ++i){
 		//printf("%4d) %15.5f\n",i, pob[i].aptitud );
-		printElemento(pob[i]);
-	}
+		printElemento(pob[i], "eval ");
+	}*/
 }
 
 void mascaras(){
@@ -107,7 +109,7 @@ void mascaras(){
 	for (int i = 0, b=0 ; i < 32; ++i){
 		masks[i] = (1<<(i+1))-1;
 		masksc[i] = ~masks[i];
-		printf("%x %x\n", masksc[i], masks[i]);
+		//printf("%x %x\n", masksc[i], masks[i]);
 	}
 
 }
@@ -155,7 +157,7 @@ void mutar(P pob[], int cuantos){
 int main(int argc, char** argv) {
  
 	P pob[T];
-	int nPob = 1;
+	int nPob = 300;
 	srand(time(NULL));
 
 	MPI_Init(&argc, &argv);
@@ -177,16 +179,24 @@ int main(int argc, char** argv) {
 	    printf("Numero de procesos %d \n",  size);
 	    printf("Hilo actual %d \n", rank);
 
+
+		inicializar(pob);
+
+
 		mascaras();
 	    if(rank==0){
-	   		inicializar(pob);
+	   		
 
 	   		//printf("%d\n", (int)sizeof(P));
 
 
 			for(int ii=0; ii<nPob; ii++){
+				printf("\n\nGeneracion %d\n", ii+1);
 
 		   		for(int i=1; i<4; i++){
+					
+					 
+
 					MPI_Send(
 						(int *)(pob+T/4*i) , // ptr a los datos
 						T/2, //cant de datos a enviar  T/4
@@ -196,8 +206,9 @@ int main(int argc, char** argv) {
 						MPI_COMM_WORLD
 					);
 
-					for(int w=0; w<2; w++)
-						printElemento(pob[T/4*i+w]);
+					for(int w=0; w<T/4; w++)
+						printElemento(pob[T/4*i+w], "mtr env 1");
+					
 				}
 
 		    	printf("Envio los datos a el resto de los hilos\n");
@@ -216,17 +227,25 @@ int main(int argc, char** argv) {
 					);
 
 					printf("Recibe de los esclavos\n");
-					for(int w=0; w<2; w++)
-						printElemento(pob[T/4*i+w]);
+					for(int w=0; w<T/4; w++){
+						char mm[100] ;
+						sprintf(mm, "mtr rcv %d %06d ",i, T/4*i+w );
+						printElemento(pob[T/4*i+w], mm);
+						//printElemento(pob[T/4*i+w], "mtr rcv");
+					}
 				}
 
-				printf("Recibidos los datos del resto de los hilos\n");
+				printf("\nRecibidos los datos del resto de los hilos\n");
 
 				qsort(pob, T, sizeof (P), compara);
 
 
-				for(int w=0; w<10; w++)
-					printElemento(pob[w]);
+				for(int w=0; w<T; w++){
+					char mm[100] ;
+					sprintf(mm, "mtr qst %06d " , w ); 
+					//printElemento(pob[w], "mst qsort ");
+					printElemento(pob[w], mm);
+				}
 
 				cruza(pob);
 				mutar(pob, T/10);
@@ -251,13 +270,13 @@ int main(int argc, char** argv) {
 				);
 
 				for(int w=0; w<2; w++)
-					printElemento(pob[w]);
+					printElemento(pob[w], "recv th   ");
 
 
-		    	printf("Recibidos los datos desde el master (%d) \n", rank);
+		    	//printf("Recibidos los datos desde el master (%d) \n", rank);
 				evaluaPoblacion(pob, T/4);
 				for(int w=0; w<2; w++)
-					printElemento(pob[w]);
+					printElemento(pob[w], "recv th evl");
 
 				MPI_Send(
 					(int *)pob , // ptr a los datos
