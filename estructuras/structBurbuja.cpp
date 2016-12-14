@@ -19,8 +19,6 @@ void burbujaEdad(P v[], int n){
 		}
 	}
 }
-
-
 void burbujaNombre(P v[], int n){
 	int i, j;
 	for(i = 1; i<n; i++){
@@ -61,3 +59,7 @@ int main(){
 	}
 
 }
+
+
+//qsort
+
