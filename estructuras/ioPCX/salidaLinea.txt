@@ -1,0 +1,48 @@
+     0)   a  5  1  8   0  0  0  0   9  0  9  0  2c  1 2c  1
+    16)   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0
+    32)   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0
+    48)   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0
+    64)   0  1  a  0   2  0  0  0   0  0  0  0   0  0  0  0
+    80)   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0
+    96)   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0
+   112)   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0
+
+
+Datos de la imagen: linea.pcx
+Tipo de imagen: pcx
+Versión de la  imagen: Version 3.0 o superior
+Codificación:  RLE
+Bits por pixel: 8 (256 colores)
+xmin: 0 
+ymin: 0 
+xmax: 9 
+ymax: 9 
+Ancho 10, Alto: 10
+Resolución Horizontal: 300 
+Resolución Vertical  : 300 
+Número de planos: 1 
+Bytes por línea  : 10 
+Tipo de paleta: Escala de grises
+   0)  [18 ][5d ][ad ][c1 REP:( 01 f9 )] [c6 REP:( 06 ff )] 
+   1) [61 ][19 ][79 ][bf ][c1 REP:( 01 f8 )] [c5 REP:( 05 ff )] 
+   2) [b2 ][7e ][23 ][80 ][b8 ][c1 REP:( 01 f9 )] [c4 REP:( 04 ff )] 
+   3) [c1 REP:( 01 fb )] [c1 REP:( 01 c4 )] [85 ][20 ][7b ][b8 ][c1 REP:( 01 fa )] [c3 REP:( 03 ff )] 
+   4) [c1 REP:( 01 ff )] [c1 REP:( 01 fb )] [be ][82 ][1f ][80 ][bd ][c1 REP:( 01 fd )] [c2 REP:( 02 ff )] 
+   5) [c2 REP:( 02 ff )] [c1 REP:( 01 fd )] [bd ][83 ][1f ][83 ][b7 ][c1 REP:( 01 f6 )] [c1 REP:( 01 ff )] 
+   6) [c3 REP:( 03 ff )] [c1 REP:( 01 fc )] [be ][84 ][1d ][75 ][b4 ][c1 REP:( 01 f7 )] 
+   7) [c4 REP:( 04 ff )] [c1 REP:( 01 fc )] [bb ][81 ][1d ][7a ][bb ]
+   8) [c5 REP:( 05 ff )] [c1 REP:( 01 fd )] [bc ][85 ][22 ][88 ]
+   9) [c6 REP:( 06 ff )] [c1 REP:( 01 fc )] [c1 REP:( 01 c3 )] [90 ][31 ]
+  10) 
+Fin de lectura 
+
+18 5d ad f9 ff ff ff ff ff ff 
+61 19 79 bf f8 ff ff ff ff ff 
+b2 7e 23 80 b8 f9 ff ff ff ff 
+fb c4 85 20 7b b8 fa ff ff ff 
+ff fb be 82 1f 80 bd fd ff ff 
+ff ff fd bd 83 1f 83 b7 f6 ff 
+ff ff ff fc be 84 1d 75 b4 f7 
+ff ff ff ff fc bb 81 1d 7a bb 
+ff ff ff ff ff fd bc 85 22 88 
+ff ff ff ff ff ff fc c3 90 31 
