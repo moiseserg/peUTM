@@ -1,0 +1,108 @@
+     0)   a  5  1  8   0  0  0  0  27  0 27  0  2c  1 2c  1
+    16)   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0
+    32)   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0
+    48)   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0
+    64)   0  1 28  0   2  0  0  0   0  0  0  0   0  0  0  0
+    80)   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0
+    96)   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0
+   112)   0  0  0  0   0  0  0  0   0  0  0  0   0  0  0  0
+
+
+Datos de la imagen: letras.pcx
+Tipo de imagen: pcx
+Versión de la  imagen: Version 3.0 o superior
+Codificación:  RLE
+Bits por pixel: 8 (256 colores)
+xmin: 0 
+ymin: 0 
+xmax: 39 
+ymax: 39 
+Ancho 40, Alto: 40
+Resolución Horizontal: 300 
+Resolución Vertical  : 300 
+Número de planos: 1 
+Bytes por línea  : 40 
+Tipo de paleta: Escala de grises
+   0)  [e8 REP:( 28 ff )] 
+   1) [e8 REP:( 28 ff )] 
+   2) [e8 REP:( 28 ff )] 
+   3) [e8 REP:( 28 ff )] 
+   4) [e8 REP:( 28 ff )] 
+   5) [e8 REP:( 28 ff )] 
+   6) [e8 REP:( 28 ff )] 
+   7) [e8 REP:( 28 ff )] 
+   8) [e8 REP:( 28 ff )] 
+   9) [e8 REP:( 28 ff )] 
+  10) [e8 REP:( 28 ff )] 
+  11) [e8 REP:( 28 ff )] 
+  12) [d0 REP:( 10 ff )] [c2 REP:( 02 00 )] [d6 REP:( 16 ff )] 
+  13) [d0 REP:( 10 ff )] [c2 REP:( 02 00 )] [d6 REP:( 16 ff )] 
+  14) [d0 REP:( 10 ff )] [c2 REP:( 02 00 )] [d6 REP:( 16 ff )] 
+  15) [d0 REP:( 10 ff )] [c2 REP:( 02 00 )] [d6 REP:( 16 ff )] 
+  16) [c6 REP:( 06 ff )] [ba ][4b ][0f ][09 ][39 ][bc ][c4 REP:( 04 ff )] [c2 REP:( 02 00 )] [c1 REP:( 01 f5 )] [66 ][13 ][0c ][50 ][c1 REP:( 01 df )] [c3 REP:( 03 ff )] [c1 REP:( 01 fb )] [90 ][33 ][0b ][09 ][3f ][b2 ][c6 REP:( 06 ff )] 
+  17) [c6 REP:( 06 ff )] [c5 REP:( 05 00 )] [05 ][c1 REP:( 01 cc )] [c3 REP:( 03 ff )] [c2 REP:( 02 00 )] [52 ][c4 REP:( 04 00 )] [1c ][c1 REP:( 01 ed )] [c1 REP:( 01 ff )] [c1 REP:( 01 fa )] [46 ][c6 REP:( 06 00 )] [c6 REP:( 06 ff )] 
+  18) [c6 REP:( 06 ff )] [54 ][c1 REP:( 01 cd )] [c1 REP:( 01 f8 )] [c1 REP:( 01 dd )] [51 ][00 ][58 ][c3 REP:( 03 ff )] [c2 REP:( 02 00 )] [1f ][c1 REP:( 01 c0 )] [c1 REP:( 01 f3 )] [bf ][1e ][00 ][76 ][c1 REP:( 01 ff )] [8c ][00 ][0c ][91 ][c1 REP:( 01 e3 )] [c1 REP:( 01 f8 )] [c1 REP:( 01 c6 )] [50 ][c6 REP:( 06 ff )] 
+  19) [ca REP:( 0a ff )] [c1 REP:( 01 ea )] [00 ][1d ][c3 REP:( 03 ff )] [c2 REP:( 02 00 )] [b2 ][c3 REP:( 03 ff )] [af ][00 ][29 ][c1 REP:( 01 ff )] [2f ][00 ][9a ][cb REP:( 0b ff )] 
+  20) [c5 REP:( 05 ff )] [c1 REP:( 01 fc )] [8b ][30 ][0a ][c3 REP:( 03 00 )] [06 ][c3 REP:( 03 ff )] [c2 REP:( 02 00 )] [c1 REP:( 01 ef )] [c3 REP:( 03 ff )] [c1 REP:( 01 ee )] [00 ][08 ][c1 REP:( 01 ff )] [09 ][00 ][c1 REP:( 01 ea )] [cb REP:( 0b ff )] 
+  21) [c5 REP:( 05 ff )] [71 ][c7 REP:( 07 00 )] [c3 REP:( 03 ff )] [c2 REP:( 02 00 )] [c1 REP:( 01 ef )] [c3 REP:( 03 ff )] [c1 REP:( 01 ee )] [00 ][08 ][c1 REP:( 01 ff )] [09 ][00 ][c1 REP:( 01 ea )] [cb REP:( 0b ff )] 
+  22) [c5 REP:( 05 ff )] [12 ][00 ][a1 ][c1 REP:( 01 ed )] [c1 REP:( 01 fc )] [c1 REP:( 01 ed )] [c2 REP:( 02 00 )] [c3 REP:( 03 ff )] [c2 REP:( 02 00 )] [b2 ][c3 REP:( 03 ff )] [af ][00 ][29 ][c1 REP:( 01 ff )] [30 ][00 ][9b ][cb REP:( 0b ff )] 
+  23) [c5 REP:( 05 ff )] [11 ][00 ][af ][c1 REP:( 01 f8 )] [c1 REP:( 01 dd )] [53 ][c2 REP:( 02 00 )] [c3 REP:( 03 ff )] [c2 REP:( 02 00 )] [1f ][c1 REP:( 01 c0 )] [c1 REP:( 01 f3 )] [bf ][1e ][00 ][76 ][c1 REP:( 01 ff )] [8d ][00 ][0d ][94 ][c1 REP:( 01 e4 )] [c1 REP:( 01 f8 )] [c1 REP:( 01 c7 )] [50 ][c6 REP:( 06 ff )] 
+  24) [c5 REP:( 05 ff )] [5a ][c4 REP:( 04 00 )] [50 ][c2 REP:( 02 00 )] [c3 REP:( 03 ff )] [c2 REP:( 02 00 )] [51 ][c4 REP:( 04 00 )] [1c ][c1 REP:( 01 ed )] [c1 REP:( 01 ff )] [c1 REP:( 01 fa )] [43 ][c6 REP:( 06 00 )] [c6 REP:( 06 ff )] 
+  25) [c5 REP:( 05 ff )] [c1 REP:( 01 ed )] [5b ][12 ][10 ][61 ][c1 REP:( 01 f3 )] [c2 REP:( 02 00 )] [c3 REP:( 03 ff )] [c2 REP:( 02 00 )] [c1 REP:( 01 f4 )] [63 ][11 ][0b ][4f ][c1 REP:( 01 de )] [c3 REP:( 03 ff )] [c1 REP:( 01 fa )] [8b ][2e ][08 ][0b ][40 ][b2 ][c6 REP:( 06 ff )] 
+  26) [e8 REP:( 28 ff )] 
+  27) [e8 REP:( 28 ff )] 
+  28) [e8 REP:( 28 ff )] 
+  29) [e8 REP:( 28 ff )] 
+  30) [e8 REP:( 28 ff )] 
+  31) [e8 REP:( 28 ff )] 
+  32) [e8 REP:( 28 ff )] 
+  33) [e8 REP:( 28 ff )] 
+  34) [e8 REP:( 28 ff )] 
+  35) [e8 REP:( 28 ff )] 
+  36) [e8 REP:( 28 ff )] 
+  37) [e8 REP:( 28 ff )] 
+  38) [e8 REP:( 28 ff )] 
+  39) [e8 REP:( 28 ff )] 
+  40) 
+Fin de lectura 
+
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 00 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 00 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 00 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 00 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ba 4b 0f 09 39 bc ff ff ff ff 00 00 f5 66 13 0c 50 df ff ff ff fb 90 33 0b 09 3f b2 ff ff ff ff ff ff 
+ff ff ff ff ff ff 00 00 00 00 00 05 cc ff ff ff 00 00 52 00 00 00 00 1c ed ff fa 46 00 00 00 00 00 00 ff ff ff ff ff ff 
+ff ff ff ff ff ff 54 cd f8 dd 51 00 58 ff ff ff 00 00 1f c0 f3 bf 1e 00 76 ff 8c 00 0c 91 e3 f8 c6 50 ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ea 00 1d ff ff ff 00 00 b2 ff ff ff af 00 29 ff 2f 00 9a ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff fc 8b 30 0a 00 00 00 06 ff ff ff 00 00 ef ff ff ff ee 00 08 ff 09 00 ea ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff 71 00 00 00 00 00 00 00 ff ff ff 00 00 ef ff ff ff ee 00 08 ff 09 00 ea ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff 12 00 a1 ed fc ed 00 00 ff ff ff 00 00 b2 ff ff ff af 00 29 ff 30 00 9b ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff 11 00 af f8 dd 53 00 00 ff ff ff 00 00 1f c0 f3 bf 1e 00 76 ff 8d 00 0d 94 e4 f8 c7 50 ff ff ff ff ff ff 
+ff ff ff ff ff 5a 00 00 00 00 50 00 00 ff ff ff 00 00 51 00 00 00 00 1c ed ff fa 43 00 00 00 00 00 00 ff ff ff ff ff ff 
+ff ff ff ff ff ed 5b 12 10 61 f3 00 00 ff ff ff 00 00 f4 63 11 0b 4f de ff ff ff fa 8b 2e 08 0b 40 b2 ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
