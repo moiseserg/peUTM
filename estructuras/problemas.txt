@@ -1,0 +1,198 @@
+           EXERCISES ON STRUCTURES
+
+
+
+ 1. What is wrong with the following C declarations?
+ 
+        A.   struct point ( double x, y )
+        B.   struct point { double x, double y };
+        C.   struct point { double x; double y }
+        D.   struct point { double x; double y; };
+        E.   struct point { double x; double y; }
+
+
+ 2. What is wrong with the following C declarations?
+ 
+        A.   typedef struct { double x; double y } Point;
+        B.   typedef { double x; double y; } Point;
+        C.   typedef struct { double x; double y; };
+        D.   typedef struct { double x; double y; } Point;
+
+
+ 3. What is the difference among the following three programs?
+
+    (a)   #include <stdio.h>
+          struct point { double x; double y; };
+          int main(void) {
+             struct point test;
+             test.x = .25; test.y = .75;
+             printf("[%f %f]\n", test.x, test.y);
+             return 0;
+          }
+
+    (b)   #include <stdio.h>
+          typedef struct { double x; double y; } Point;
+          int main(void) {
+             Point test;
+             test.x = .25; test.y = .75;
+             printf("[%f %f]\n", test.x, test.y);
+             return 0;
+          }
+
+    (c)   #include <stdio.h>
+          typedef struct { double x; double y; } Point;
+          int main(void) {
+             Point test = {.25, .75};
+             printf("[%f %f]\n", test.x, test.y);
+             return 0;
+          }
+
+
+ 4. Provide an implementation of a function POINTshow() so that the following
+    program is functionally equivalent to the three programs above.
+
+          #include <stdio.h>
+          typedef struct { double x; double y; } Point;
+          int main(void) {
+            Point test = {.25, .75};
+            POINTshow(test);
+            return 0;
+          }
+
+ 5. Provide an implementation of a function POINTdist() that computes the
+    Euclidean distance between two Points.
+
+ 6. Provide an implementation of a function POINTeq() that returns 1 if
+    the two points are "equal"; and 0 otherwise.  With floating point
+    values it doesn't make much sense to test for exact equality; instead
+    check to see if the distance between the points is less than 0.000001.
+
+ 7. Define a type Rect for rectangles that are parallel to the axes in a
+    Cartesian coordinate system. Represent a rectangle by its lower left
+    and upper right endpoints using the Point type above.
+
+ 8. Write a function RECTarea() that computes the area of a rectangle. 
+ 
+ 9. Write a function that returns 1 if a point falls within a rectangle,
+    0 otherwise. Use the Point and Rectangle types above.
+
+10. Write a function that returns 1 if the first rectangle is completely
+    contained inside the second rectangle, and 0 otherwise.  Hint: check if
+    the lower left and upper right endpoints of the first rectangle fall
+    within the second rectangle.
+
+11. Write a program that reads in a list of points (given by their x and
+    y coordinates) and determines the pair that is the farthest apart.
+    Hint: store them in an array and use the POINTdist() function.
+
+      ANSWERS TO EXERCISES ON STRUCTURES
+
+
+ 1.
+        A. Everything. Need braces, not parens; semicolons, not comma.
+        B. Comma is wrong (need semicolons).
+        C. Need semicolon after y and semicolon at end.
+        D. Nothing wrong. This one is OK.
+        E. Need semicolon at end.
+                 
+
+ 2. 
+        A. Semicolon missing after "y".
+        B. "struct" missing; some type must follow "typedef".
+        C. Useless because there is no name for the typedef.
+        D. Nothing wrong.  This one is OK.
+
+
+ 3.  They all do the same thing.
+
+
+ 4.       void POINTshow(Point p) {
+             printf("[%f %f]\n", p.x, p.y);
+          }
+
+ 5.       double POINTdist(Point p, Point q) {
+             double dx = p.x - q.x;
+             double dy = p.y - q.y;
+             return sqrt(dx*dx + dy*dy);
+          }
+
+
+ 6.       #define EPSILON 0.000001
+
+          int POINTeq(Point p, Point q) {
+             if (POINTdist(p, q) < EPSILON)
+                return 1;
+             else
+                return 0;
+          }
+
+   Since a logical expression evaluates to 1 (true) or 0 (false), the
+   function can be written more compactly:
+
+          int POINTeq(Point p, Point q) {
+             return POINTdist(p, q) < EPSILON;
+          }
+
+ 7.      typedef struct {
+            Point lowerleft;         /* lower right endpoint of rectangle */
+            Point upperright;        /* upper right endpoint of rectangle */
+         } Rect;
+
+ 8.      double RECTarea(Rect r) {
+            double width  = r.upperright.x - r.lowerleft.x;
+            double height = r.upperright.y - r.lowerleft.y;
+            return width * height;
+         }
+
+         Observe how to access a data field of a struct that itself is the
+         data field of another struct.
+
+
+ 9.      int POINTinRect(Point p, Rect r) {
+            return (p.x <= upperright.x) && (p.x >= lowerleft.x) &&
+                   (p.y <= upperright.y) && (p.y >= lowerleft.y);
+         }
+
+10.      int RECTinRect(Rect r1, Rect r2) {
+            return POINTinRect(r1.upperleft, r2) && POINTinRect(r1.lowerright,r2);
+         }
+
+
+11.      #include <stdio.h>
+         #include <math.h>
+         #define N 10
+
+         typedef struct {
+            double x;
+            double y;
+         } Point;
+
+         POINTdist()...
+         POINTshow()...
+
+         int main(void) {
+            int i, j;
+            Point points[N];          // store list of points in array
+            Point bestp1, bestp2;     // store furthest pair of points
+            double bestdist = 0.0;    // and their distance          
+            double x, y, dist;
+             
+            for (i = 0; i < N; i++) {
+               scanf("%lf %lf", &x, &y);
+               points[i].x = x; points[i].y = y;
+            }
+            
+            for (i = 0; i < N; i++)
+               for (j = i + 1; j < N; j++) {
+                  dist = POINTdist(points[i], points[j]);
+                  if (dist > bestdist) {
+                     bestdist = dist;
+                     bestp1 = points[i]; bestp2 = points[j];
+                  }
+               }
+
+            printf("furthest distance = %f\n", bestdist);
+            POINTshow(bestp1);
+            POINTshow(bestp2);
+            return 0;
+         }
