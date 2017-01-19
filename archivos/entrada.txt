@@ -1,0 +1,33 @@
+Exitos de Juan Gabriel
+Musica regional mexicana
+Juan Gabriel
+juangabriel.bin
+cucurrucucu paloma
+5 12
+hasta que te conoci
+3 18
+
+Mi amigo bronco
+Musica regional mexicana
+Bronco
+bronco.bin
+Mi amigo bronco
+3 25
+La escuelita
+2 23
+
+More than words
+rock
+Extreme
+extreme.bin
+More than words
+4 25
+Can't help falling 
+2 36
+
+QUERY
+artista:Juan Gabriel
+artista:Bronco
+genero:Musica regional mexicana
+album:Mi amigo bronco
+END
