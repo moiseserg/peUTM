@@ -63,18 +63,21 @@ int main(){
 				fgets(linea, 50, arch);
 				sscanf(linea, "%d %d", 
 					&canciones[j].mins, &canciones[j].segs);
-				j++;
+				j++; //numero de canciones
 			}
 
 			//fopen discos[i].archivo
+			FILE *arch2 = fopen(discos[i].archivo, "wb");
 
+			//if(NULL)
 			//fwrite
+			fwrite(canciones, sizeof(C), j, arch2);
 
 			//fclose
-
+			fclose(arch2);
 
 			i++;		
-			break;
+			
 	}
 
 	//CONSULTAS

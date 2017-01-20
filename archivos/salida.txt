@@ -1,0 +1,60 @@
+**Exitos de Juan Gabriel**
+Exitos de Juan Gabriel
+Musica regional mexicana
+Juan Gabriel
+juangabriel.bin
+disco 1
+**Mi amigo bronco**
+Mi amigo bronco
+Musica regional mexicana
+Bronco
+bronco.bin
+disco 2
+**More than words**
+More than words
+rock
+Extreme
+extreme.bin
+disco 3
+**QUERY**
+QUERY
+
+Q:artista:Juan Gabriel
+
+Album  : Exitos de Juan Gabriel
+Género : Musica regional mexicana
+Artista: Juan Gabriel
+cucurrucucu paloma   05:12
+hasta que te conoci  03:18
+
+Q:artista:Bronco
+
+Album  : Mi amigo bronco
+Género : Musica regional mexicana
+Artista: Bronco
+Mi amigo bronco      03:25
+La escuelita         02:23
+
+Q:genero:Musica regional mexicana
+
+Album  : Exitos de Juan Gabriel
+Género : Musica regional mexicana
+Artista: Juan Gabriel
+cucurrucucu paloma   05:12
+hasta que te conoci  03:18
+
+Album  : Mi amigo bronco
+Género : Musica regional mexicana
+Artista: Bronco
+Mi amigo bronco      03:25
+La escuelita         02:23
+
+Q:album:Mi amigo bronco
+
+Album  : Mi amigo bronco
+Género : Musica regional mexicana
+Artista: Bronco
+Mi amigo bronco      03:25
+La escuelita         02:23
+
+Q:END
