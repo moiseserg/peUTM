@@ -77,7 +77,6 @@ int cabecera[128]={
 		fputc(i, arch);fputc(i, arch);fputc(i, arch);
 	}
 
-
 	fclose(arch);
 
 }
