@@ -34,7 +34,10 @@ int main(int argc, char  const  *argv[]){
 					 break;
 		}
 
-		printf("(%3d) %2x ",i++, valor );
+		//printf("(%3d) %2x ",i++, valor );
+		printf(" 0x%02x, ", valor );
+		i++;
+
 		if(i%10==0)
 			printf("\n");
 	}
