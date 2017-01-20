@@ -2,7 +2,7 @@
 
 
 
-int main(){
+int main(int argc, char *argv[]){
 
 int cabecera[128]={
  0x0a,  0x05,  0x01,  0x08,  0x00,  0x00,  0x00,  0x00,  0x2c,  0x00, 
@@ -56,6 +56,28 @@ int cabecera[128]={
 
 	};
 
-	for(int i=0; i<128; i++){}
+
+	FILE *arch = fopen(argv[1], "wb");
+
+	for(int i=0; i<128; i++){
+		fputc(cabecera[i], arch);
+	}
+
+	for (int i = 0; i < 30; i++)
+	{
+		for (int j = 0; j < 45; j++){
+			//implemetar RLE
+			fputc(0xc1, arch);
+			fputc(img[i][j], arch);
+		}
+	}
+
+
+	for(int i=0; i<256; i++){
+		fputc(i, arch);fputc(i, arch);fputc(i, arch);
+	}
+
+
+	fclose(arch);
 
 }
