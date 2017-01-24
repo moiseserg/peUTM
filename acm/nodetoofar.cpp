@@ -58,7 +58,7 @@ int main(){
 				break;
 			//bfs
 			
-			printf("caso %d %d:", origen, ttl);
+			printf("caso: origen %d  dest:%d:\n", origen, ttl);
 			origen = listaNodos(nodos, &nnodos, origen);
 			A nActual={origen, 0};
 			
@@ -72,20 +72,16 @@ int main(){
 				q.pop(); //sacar el elemento de la cola 
 								
 				int fila = valor.pos; //fila sobre la matriz 
-				int ttlAct = valor.ttl;
-
-
-				if(ttlAct   >ttl)
-					break;	
+				int ttlAct = valor.ttl;				 
 					
-				printf("Cola %d \n", nodos[fila]);			
+				//printf("Cola %d (%d) ttl=%d\n",fila,  nodos[fila], ttlAct);			
 				
-				for(int i=0; i< nnodos; i++){
+				for(int i=0; i< nnodos && ttlAct < ttl; i++){
 					if(visitados[i] == 0 && grafo[fila][i] ==1){
 						A aa = {i, ttlAct+1};
 						q.push(aa);
 						visitados[i] = 1;
-						printf("visita %d\n", nodos[i]);
+						//printf("visitado %d (%d)\n", i, nodos[i]);
 					}
 					
 				}
@@ -95,7 +91,7 @@ int main(){
 			
 			int cont=0;
 			for(int i=0; i< nnodos; i++){
-				printf("%d] %d ", i, visitados[i]);
+				//printf("%d] %d ", i, visitados[i]);
 				
 				if(visitados[i]==0)
 					cont++;
@@ -105,11 +101,11 @@ int main(){
 			printf("respuesta %d\n", cont);
 				
 		}
-	
+
+		
 	}
 	
 }
-
 
 
 
