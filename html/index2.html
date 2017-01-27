@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo 02 de HTML+JS</title>
+</head>
+
+<p id="texto"> fecha</p>
+
+<button id="cambiar"  onclick="document.getElementById('texto').innerHTML = Date();"> Fecha </button>
+
+
+<p id="texto2"> Otro</p>
+
+
+<button id="cambiar"  onclick="document.getElementById('texto2').innerHTML = 'Texto de prueba';"> cambiar el otro texto </button>
+
+
+<p id="texto3">prueba 3</p>
+
+<button onclick=" document.getElementById('texto3').style.fontSize='45px';"> Tercer prueba</button>
+
+
+<br>
+<p id="texto4" style="display:none">Estoy oculto</p>
+
+<button type="button" onclick="document.getElementById('texto4').style.display='block';
+document.getElementById('texto4').innerHTML='texto apareció';
+document.getElementById('texto4').style.color='red';
+">Mostrar texto</button>
+
+
+</body>
+</html>
