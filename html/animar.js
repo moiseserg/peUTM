@@ -51,8 +51,8 @@ function  ponerFantasma() {
     var fant = document.getElementById('fantasma');
     var piza = document.getElementById("pizarra");
 
-    var controlador = piza.getContext("2d");
-    controlador.drawImage(fant,10,10);
+    var lapiz = piza.getContext("2d");
+    lapiz.drawImage(fant,10,10);
 
 }
 
@@ -61,8 +61,8 @@ function  moverFantasma() {
     var fant = document.getElementById('fantasma');
     var piza = document.getElementById("pizarra");
 
-    var controlador = piza.getContext("2d");
-    controlador.drawImage(fant,0,0, 32, 32, 100,100,32,32);
+    var lapiz = piza.getContext("2d");
+    lapiz.drawImage(fant,0,0, 32, 32, 100,100,32,32);
 
 
 }
@@ -74,8 +74,8 @@ function  mover2Fantasma() {
     var fant = document.getElementById('fantasma');
     var piza = document.getElementById("pizarra");
 
-    var controlador = piza.getContext("2d");
-    controlador.drawImage(fant,0,0, 32, 32, 100,100,32,32);
+    var lapiz = piza.getContext("2d");
+    lapiz.drawImage(fant,0,0, 32, 32, 100,100,32,32);
 
 
     var id = setInterval(frame, 60);
@@ -83,7 +83,7 @@ function  mover2Fantasma() {
 
 
     function frame() {
-        controlador.drawImage(fant,0,sy*32, 32, 32, 100,100,32,32);
+        lapiz.drawImage(fant,0,sy*32, 32, 32, 100,100,32,32);
         sy = (sy+1)%8;
 
     }
@@ -98,9 +98,9 @@ function  mover3Fantasma() {
     var fant = document.getElementById('fantasma');
     var piza = document.getElementById("pizarra");
 
-    var controlador = piza.getContext("2d");
-    controlador.drawImage(fant,0,0, 32, 32, 100,100,32,32);
-    controlador.fillStyle="#ffffff";
+    var lapiz = piza.getContext("2d");
+    lapiz.drawImage(fant,0,0, 32, 32, 100,100,32,32);
+    lapiz.fillStyle="#ffffff";
 
 
     var id = setInterval(frame, 50);
@@ -112,12 +112,12 @@ function  mover3Fantasma() {
 
 
     function frame() {
-        controlador.fillRect(posx-4 , posy,38,32);
-       // controlador.drawImage(fant,0,9*32, 32, 32, posx,posy,32,32);
+        lapiz.fillRect(posx-4 , posy,38,32);
+       // lapiz.drawImage(fant,0,9*32, 32, 32, posx,posy,32,32);
         console.log('a pos x =' + posx + ' pos y ' +posy);
 
-        // controlador.stroke();
-        controlador.drawImage(fant,0,sy*32, 32, 32, posx,posy,32,32);
+        // lapiz.stroke();
+        lapiz.drawImage(fant,0,sy*32, 32, 32, posx,posy,32,32);
         console.log('b pos x =' + posx + ' pos y ' +posy);
         sy = (sy+1)%8;
 
@@ -132,5 +132,23 @@ function  mover3Fantasma() {
         console.log('c pos x =' + posx + ' pos y ' +posy);
     }
 
+
+}
+
+
+function  mostrarEscenario() {
+
+    var escenaro = document.getElementById('mario');
+    var piza = document.getElementById("pizarra");
+    var lapiz = piza.getContext("2d");
+
+    lapiz.fillStyle='lightgray';
+    lapiz.fillRect(0,0,400,400);
+
+
+    for(var i=0; i<10; i++){
+        lapiz.drawImage(escenaro, 770, 208, 24,24, i*24, 350, 24,24);
+    }
+    lapiz.drawImage(escenaro, 0, 380, 138,138, 240, 350, 138,138);
 
 }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="animar.js"></script>
+
+    <script type="text/javascript">
+        window.addEventListener('keydown',this.check2,false);
+
+        function check(e) {
+            alert(e.keyCode);
+        }
+
+        function check2(e) {
+            var code = e.keyCode;
+            switch (code) {
+                case 37: alert("Left"); break; //Left key
+                case 38: alert("Up"); break; //Up key
+                case 39: alert("Right"); break; //Right key
+                case 40: alert("Down"); break; //Down key
+                default: alert(code); //Everything else
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+
+<img id='mario' src="marioEscenario.png" style="display: none;"/>
+
+
+<p>Canvas:</p>
+
+
+
+<canvas id="pizarra" width="400" height="400" style="border:1px solid #d3d3d3;">
+Tu navegador no soporta Canvas
+</canvas>
+
+
+<button onclick="mostrarEscenario()">
+    Mostrar un escenario
+</button>
+
+<br>
+<a href="http://www.w3schools.com/tags/canvas_drawimage.asp">Canvas</a>
+
+</body>
+</html>
+
