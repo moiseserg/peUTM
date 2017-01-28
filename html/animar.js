@@ -142,6 +142,7 @@ function  mostrarEscenario() {
     var piza = document.getElementById("pizarra");
     var lapiz = piza.getContext("2d");
 
+
     lapiz.fillStyle='lightgray';
     lapiz.fillRect(0,0,400,400);
 
@@ -151,4 +152,22 @@ function  mostrarEscenario() {
     }
     lapiz.drawImage(escenaro, 0, 380, 138,138, 240, 350, 138,138);
 
+    lapiz.fillStyle="black";
+    lapiz.fillRect(posx, posy, 10,10);
+    lapiz.stroke();
+}
+
+function moverDerecha(){
+   
+    var piza = document.getElementById("pizarra");
+    var lapiz = piza.getContext("2d");
+
+    lapiz.fillStyle='lightgray';
+    lapiz.fillRect(posx, posy, 10,10);
+    lapiz.stroke();
+
+    posx+=10;
+    lapiz.fillStyle="black";
+    lapiz.fillRect(posx, posy, 10,10);
+    lapiz.stroke();
 }
